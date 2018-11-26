@@ -1,0 +1,123 @@
+{% include css/materialize.css %}
+{% include css/bootstrap.min.css %}
+{% include css/grayscale.mod.css %}
+
+.logo-header {
+    max-height: 210px;
+}
+
+.slogan {
+    font-size: 28px;
+    padding-top: 11px;
+    margin-bottom: 0px;
+    font-family: 'Audiowide', cursive;
+    color: #e2e2e2
+}
+
+.partners {
+    margin-top: 40px;
+    margin-bottom: 85px;
+}
+
+.partner-img-heyday {
+  max-height: 200px;
+}
+
+.partner-img-tuquesgames {
+    max-height: 200px;
+  }
+
+.partner-img-direxyon {
+  max-height: 80px;
+}
+
+.partner-img-bell {
+  max-height: 350px;
+}
+
+
+.gold, .silver, .bronze {
+    margin-bottom: 0;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+}
+
+.gold {
+    color: #FFD700
+}
+
+.silver {
+    color: gray
+}
+
+.bronze {
+    color: #CD7F32
+}
+
+.separator {
+    max-height: 1.8rem;
+}
+
+/* .partners-list {
+    margin-top: 15px;
+}
+
+.partners-list .placeholder {
+    font-size: 140px;
+    color: #686868;
+    margin: 10px;
+} */
+
+.about-text p {
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+p {
+    font-size: 1.7rem;
+    line-height: 2.7rem;
+}
+
+.card-image {
+    width: 200px;
+    height: 200px;
+}
+
+.card-image img {
+    object-fit: cover;
+}
+
+.card-content {
+    padding: 15px !important;
+}
+
+.parallax-container {
+    height: 200px;
+}
+
+.photo-equipe {
+  width: 95%;
+  padding-bottom: 35px;
+}
+
+.irl1-about {
+  margin-bottom: 25px;
+  margin-top: 25px;
+  height: 200px;
+}
+
+.abstract-paragraph {
+  text-align: center !important;
+  padding-top: 25px;
+  font-weight: bold;
+  font-size: 17pt;
+}
+
+.logo-necotis {
+  height: 180px !important;
+}
+
+@media(max-width:650px) {
+  .logo-necotis {
+    height: 95px !important;
+  }
+}
